@@ -1,0 +1,59 @@
+### Redis
+.*.swp
+*.o
+*.log
+dump.rdb
+redis-benchmark
+redis-check-aof
+redis-check-rdb
+redis-check-dump
+redis-cli
+redis-sentinel
+redis-server
+doc-tools
+release
+misc/*
+src/release.h
+appendonly.aof
+SHORT_TERM_TODO
+release.h
+src/transfer.sh
+src/configs
+redis.ds
+src/redis.conf
+src/nodes.conf
+deps/lua/src/lua
+deps/lua/src/luac
+deps/lua/src/liblua.a
+.make-*
+.prerequisites
+*.dSYM
+Makefile.dep
+
+### macOS template
+# General
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
