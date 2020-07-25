@@ -23,6 +23,4 @@ Redis 4.0 为了解决这个问题，带来了一个新的持久化选项——*
 
 - [Redis 持久化机制 - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md#redis-%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81-redis-%E6%8C%82%E6%8E%89%E4%B9%8B%E5%90%8E%E5%86%8D%E9%87%8D%E5%90%AF%E6%95%B0%E6%8D%AE%E5%8F%AF%E4%BB%A5%E8%BF%9B%E8%A1%8C%E6%81%A2%E5%A4%8D)
 
-- [Redis 持久化 - 我没有三颗心脏](https://mp.weixin.qq.com/s/O_qDco6-Dasu3RomWIK_Ig)
-
-- [Redis(7)——持久化 - wmyskxz - GitHub](https://github.com/wmyskxz/MoreThanJava#part3-redis)
+- [Redis 持久化 - 我没有三颗心脏](https://mp.weixin.qq.com/s/O_qDco6-Dasu3RomWIK_Ig) / [Redis(7)——持久化 - wmyskxz - GitHub](https://www.wmyskxz.com/2020/03/13/redis-7-chi-jiu-hua-yi-wen-liao-jie/)
