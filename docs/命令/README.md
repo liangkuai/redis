@@ -15,6 +15,16 @@
 - incr
 - getset
 
+> #### bitmap
+>
+> - [setbit](./string/setbit.md)
+> - [getbit](./string/getbit.md)
+> - [bitcount](./string/bitcount.md)
+> - [bitop](./string/bitop.md)
+> - [bitpos](./string/bitpos.md)
+> - bitfield
+
+
 
 ### list
 

@@ -2,15 +2,15 @@
 
 > 可用版本：>= 2.2.0
 
-对于 string value，获取指定 offset 上的 bit。
+对于 string key，获取指定 offset 上的 bit。
 
-#### 语法
+### 语法
 
 ```bash
 getbit key offset
 ```
 
-#### 返回值
+### 返回值
 
 返回 offset 处的 bit 值。
 
@@ -20,3 +20,8 @@ getbit key offset
 127.0.0.1:6379> getbit bitmap 65536
 (integer) 0
 ```
+
+
+### 参考
+
+- [GETBIT](http://www.redis.cn/commands/getbit.html)
