@@ -10,6 +10,7 @@
 getbit key offset
 ```
 
+
 ### 返回值
 
 返回 offset 处的 bit 值。
