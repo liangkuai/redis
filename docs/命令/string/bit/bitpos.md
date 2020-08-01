@@ -26,4 +26,4 @@ OK
 
 ### 参考
 
-- [BITPOS](http://www.redis.cn/commands/bitpos.html)
+- [BITPOS - redis.cn](http://www.redis.cn/commands/bitpos.html)

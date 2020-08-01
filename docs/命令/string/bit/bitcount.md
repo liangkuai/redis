@@ -22,4 +22,4 @@ bitcount key [start end]
 
 ### 参考
 
-- [BITCOUNT](http://www.redis.cn/commands/bitcount.html)
+- [BITCOUNT - redis.cn](http://www.redis.cn/commands/bitcount.html)

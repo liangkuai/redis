@@ -34,4 +34,4 @@ setbit key offset 0|1
 
 ### 参考
 
-- [SETBIT](http://www.redis.cn/commands/setbit.html)
+- [SETBIT - redis.cn](http://www.redis.cn/commands/setbit.html)

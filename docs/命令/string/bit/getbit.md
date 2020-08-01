@@ -25,4 +25,4 @@ getbit key offset
 
 ### 参考
 
-- [GETBIT](http://www.redis.cn/commands/getbit.html)
+- [GETBIT - redis.cn](http://www.redis.cn/commands/getbit.html)

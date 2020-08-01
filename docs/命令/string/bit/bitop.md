@@ -28,20 +28,20 @@ bitop operation destkey key [key ...]
 保存到 destkey 的字符串的长度，和输入 key 中最长的字符串长度相等。
 
 ```bash
-127.0.0.1:6379> SET key1 "foobar"
+127.0.0.1:6379> set key1 "foobar"
 OK
 
-127.0.0.1:6379> SET key2 "abcdef"
+127.0.0.1:6379> set key2 "abcdef"
 OK
 
-127.0.0.1:6379> BBITOP AND dest key1 key2
+127.0.0.1:6379> bitop AND dest key1 key2
 (integer) 6
 
-127.0.0.1:6379> GET dest
+127.0.0.1:6379> get dest
 "`bc`ab"
 ```
 
 
 ### 参考
 
-- [BITOP](http://www.redis.cn/commands/bitop.html)
+- [BITOP - redis.cn](http://www.redis.cn/commands/bitop.html)

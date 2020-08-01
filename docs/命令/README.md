@@ -2,13 +2,15 @@
 
 ### 通用
 
+- type
 - expire
 - exists
 - del
 
+
 ### string
 
-- set
+- [set](./string/set.md)
 - get
 - mset
 - setnx
@@ -17,13 +19,12 @@
 
 > #### bitmap
 >
-> - [setbit](./string/setbit.md)
-> - [getbit](./string/getbit.md)
-> - [bitcount](./string/bitcount.md)
-> - [bitop](./string/bitop.md)
-> - [bitpos](./string/bitpos.md)
+> - [setbit](./string/bit/setbit.md)
+> - [getbit](./string/bit/getbit.md)
+> - [bitcount](./string/bit/bitcount.md)
+> - [bitop](./string/bit/bitop.md)
+> - [bitpos](./string/bit/bitpos.md)
 > - bitfield
-
 
 
 ### list
