@@ -13,11 +13,19 @@
 - [set](./string/set.md)
 - get
 - mset
-- setnx
-- incr
+- mget
 - getset
+- getrange
 
-> #### bitmap
+> #### number
+>
+> - incr
+> - decr
+> - incrby
+> - decrby
+> - incrbyfloat
+
+> #### bit
 >
 > - [setbit](./string/bit/setbit.md)
 > - [getbit](./string/bit/getbit.md)
