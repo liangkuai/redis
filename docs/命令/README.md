@@ -8,7 +8,7 @@
 - del
 
 
-### string
+### String
 
 - [set](./string/set.md)
 - get
@@ -39,7 +39,7 @@
 > - bitfield
 
 
-### list
+### List
 
 - lpush
 - rpush
@@ -57,7 +57,7 @@
 - lset
 
 
-### hash
+### Hash
 
 - [hset](./hash/hset_hsetnx.md)
 - [hsetnx](./hash/hset_hsetnx.md)
@@ -73,6 +73,25 @@
 - [hincrbyfloat](./hash/hincrby_hincrbyfloat.md)
 - hstrlen
 - hscan
+
+
+### Set
+
+- [sadd](./Set/sadd.md)
+- [sunion](./Set/sunion_sunionstore.md)
+- [sunionstore](./Set/sunion_sunionstore.md)
+- [sinter](./Set/sinter_sinterstore.md)
+- [sinterstore](./Set/sinter_sinterstore.md)
+- [sdiff](./Set/sdiff_sdiffstore.md)
+- [sdiffstore](./Set/sdiff_sdiffstore.md)
+- [scard](./Set/scard_smembers_sismember_srandmember.md)
+- [smembers](./Set/scard_smembers_sismember_srandmember.md)
+- [sismember](./Set/scard_smembers_sismember_srandmember.md)
+- [srandmember](./Set/scard_smembers_sismember_srandmember.md)
+- sscan
+- [smove](./Set/smove.md)
+- [srem](./Set/srem_spop.md)
+- [spop](./Set/srem_spop.md)
 
 
 ### 持久化
