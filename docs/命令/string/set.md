@@ -1,4 +1,4 @@
-# set/mset/msetnx
+# set/getset/mset/msetnx
 
 ## set
 
@@ -83,7 +83,7 @@ OK
 ### 语法
 
 ```
-mset key value [key value]
+mset key value [key value ...]
 ```
 
 ### 返回值
@@ -110,7 +110,7 @@ OK
 ### 语法
 
 ```
-msetnx key value [key value]
+msetnx key value [key value ...]
 ```
 
 ### 返回值

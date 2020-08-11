@@ -10,25 +10,25 @@
 
 ### String
 
-- [set](./string/set.md#set)
-- [getset](./string/set.md#getset)
-- [mset](./string/set.md#mset)
-- [msetnx](./string/set.md#msetnx)
+- [set](./String/set.md#set)
+- [getset](./String/set.md#getset)
+- [mset](./String/set.md#mset)
+- [msetnx](./String/set.md#msetnx)
 - setrange
-- get
-- mget
+- [get](./String/get.md#get)
+- [mget](./String/get.md#mget)
 - getrange
-- setrange
+- [append](./String/append.md)
 - strlen
-- [append](./string/append.md)
+- stralgo
 
 > #### number
 >
-> - incr
+> - [incr](./String/number/incr.md)
+> - [incrby](./String/number/incrby.md)
+> - [incrbyfloat](./String/number/incrbyfloat.md)
 > - decr
-> - incrby
 > - decrby
-> - incrbyfloat
 
 > #### bit
 >
