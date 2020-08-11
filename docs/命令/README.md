@@ -10,16 +10,17 @@
 
 ### String
 
-- [set](./string/set.md)
+- [set](./string/set.md#set)
+- [getset](./string/set.md#getset)
+- [mset](./string/set.md#mset)
+- [msetnx](./string/set.md#msetnx)
+- setrange
 - get
-- mset
-- msetnx
 - mget
-- getset
 - getrange
 - setrange
 - strlen
-- append
+- [append](./string/append.md)
 
 > #### number
 >

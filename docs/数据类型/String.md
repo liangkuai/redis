@@ -12,7 +12,7 @@ Redis 中的 string 最大 512M。
 ### 使用案例
 
 1. 分布式锁
-    - `set ex`
+    - `set ex nx`
 
 2. 重置计数功能
     - `getset`
@@ -23,7 +23,7 @@ Redis 中的 string 最大 512M。
 
 ### 参考
 
-- [SET - redis.cn](http://www.redis.cn/commands/set.html)
+- [String - 命令](../命令/README.md#String)
 
 
 
