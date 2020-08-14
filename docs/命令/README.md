@@ -24,19 +24,19 @@
 
 > #### number
 >
-> - [incr](./String/number/incr.md)
-> - [incrby](./String/number/incrby.md)
-> - [incrbyfloat](./String/number/incrbyfloat.md)
+> - [incr](./String/number/incr.md#incr)
+> - [incrby](./String/number/incr.md#incrby)
+> - [incrbyfloat](./String/number/incr.md#incrbyfloat)
 > - decr
 > - decrby
 
 > #### bit
 >
-> - [setbit](./string/bit/setbit.md)
-> - [getbit](./string/bit/getbit.md)
-> - [bitcount](./string/bit/bitcount.md)
-> - [bitop](./string/bit/bitop.md)
-> - [bitpos](./string/bit/bitpos.md)
+> - [setbit](./String/bit/setbit.md)
+> - [getbit](./String/bit/getbit.md)
+> - [bitcount](./String/bit/bitcount.md)
+> - [bitop](./String/bit/bitop.md)
+> - [bitpos](./String/bit/bitpos.md)
 > - bitfield
 
 

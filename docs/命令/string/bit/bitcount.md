@@ -6,7 +6,7 @@
 
 ### 语法
 
-```bash
+```
 bitcount key [start end]
 ```
 
@@ -14,7 +14,7 @@ bitcount key [start end]
 
 返回被设置为 1 的 bit 数。
 
-```bash
+```
 127.0.0.1:6379> bitcount bitmap 1 30
 (integer) 2
 ```
@@ -22,4 +22,5 @@ bitcount key [start end]
 
 ### 参考
 
+- [BITCOUNT - 官方](https://redis.io/commands/bitcount)
 - [BITCOUNT - redis.cn](http://www.redis.cn/commands/bitcount.html)

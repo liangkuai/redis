@@ -6,7 +6,7 @@
 
 ### 语法
 
-```bash
+```
 bitop operation destkey key [key ...]
 ```
 
@@ -27,7 +27,7 @@ bitop operation destkey key [key ...]
 
 保存到 destkey 的字符串的长度，和输入 key 中最长的字符串长度相等。
 
-```bash
+```
 127.0.0.1:6379> set key1 "foobar"
 OK
 
@@ -44,4 +44,5 @@ OK
 
 ### 参考
 
+- [BITOP - 官方](https://redis.io/commands/bitop)
 - [BITOP - redis.cn](http://www.redis.cn/commands/bitop.html)

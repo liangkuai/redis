@@ -6,7 +6,7 @@
 
 ### 语法
 
-```bash
+```
 bitpos key 0|1 [start] [end]
 ```
 
@@ -15,7 +15,7 @@ bitpos key 0|1 [start] [end]
 
 返回第一个被设置为 1 或者 0 的 bit 位。
 
-```bash
+```
 127.0.0.1:6379> set key1 "\xff\xf0\x00"
 (integer) 12
 
@@ -26,4 +26,5 @@ OK
 
 ### 参考
 
+- [BITPOS - 官方](https://redis.io/commands/bitpos)
 - [BITPOS - redis.cn](http://www.redis.cn/commands/bitpos.html)
