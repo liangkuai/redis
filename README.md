@@ -24,7 +24,27 @@ REmote DIctionary Server（远程字典服务器）
 - 缓存雪崩
 
 
+### Redis 数据删除机制
 
+- 过期策略
+    - 定期删除
+    - 惰性删除
+- 内存淘汰策略
+
+
+### Redis 如何持久化数据？
+
+- RDB
+- AOF
+- 混合持久化
+
+
+### Redis 有哪些部署模式？
+
+- 单机模式（单副本）
+- 主从复制模式（多副本）
+- 哨兵模式（Sentinel）
+- 集群模式（Cluster）
 
 
 ### 如何学习 Redis？（[issue#2](https://github.com/liangkuai/redis/issues/2)）
