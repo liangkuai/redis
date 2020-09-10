@@ -2,7 +2,7 @@
 
 > 可用版本：>= 2.0.0
 
-删除 hash key 中的字段。
+删除 hash key 中的字段
 
 ### 语法
 
@@ -12,7 +12,7 @@ hdel key field [field ...]
 
 ### 返回值
 
-删除字段数
+成功删除的字段数，不存在的字段不算
 
 ```bash
 127.0.0.1:6379> hset myhash f1 "hello" f2 5
@@ -22,8 +22,6 @@ hdel key field [field ...]
 (integer) 1
 ```
 
-
 ### 参考
-
 - [HDEL - 官方](https://redis.io/commands/hdel)
 - [HDEL - redis.cn](http://www.redis.cn/commands/hdel.html)

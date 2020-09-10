@@ -61,12 +61,9 @@
 ### Hash
 
 - [hset / hsetnx / ~~hmset~~](./hash/hset.md)
-- [hget / hmget / hgetall / hvals / hkeys](./hash/hget.md)
-- [hlen](./hash/hlen_hexists_hkeys.md)
-- [hexists](./hash/hlen_hexists_hkeys.md)
+- [hget / hmget / hgetall / hvals / hkeys / hlen / hexists](./hash/hget.md)
+- [hincrby / hincrbyfloat](./hash/hincrby.md)
 - [hdel](./hash/hdel.md)
-- [hincrby](./hash/hincrby_hincrbyfloat.md)
-- [hincrbyfloat](./hash/hincrby_hincrbyfloat.md)
 - hstrlen
 - hscan
 
