@@ -1,11 +1,10 @@
-# hget/hmget/hgetall/hkeys/hvals
+# hget/hmget/hgetall/hkeys/hvals/hkeys
 
 ## hget
 
 > 可用版本：>= 2.0.0
 
 返回 hash key 中指定字段值。
-
 
 ### 语法
 
@@ -28,9 +27,7 @@ hget key field
 (nil)
 ```
 
-
 ### 参考
-
 - [HGET - 官方](https://redis.io/commands/hget)
 - [HGET - redis.cn](http://www.redis.cn/commands/hget.html)
 
@@ -40,7 +37,6 @@ hget key field
 > 可用版本：>= 2.0.0
 
 返回 hash key 中多个字段值。
-
 
 ### 语法
 
@@ -64,9 +60,7 @@ hmget key field [field ...]
 3) (nil)
 ```
 
-
 ### 参考
-
 - [HMGET - 官方](https://redis.io/commands/hmget)
 - [HMGET - redis.cn](http://www.redis.cn/commands/hmget.html)
 
@@ -76,7 +70,6 @@ hmget key field [field ...]
 > 可用版本：>= 2.0.0
 
 返回 hash key 中所有字段和值。
-
 
 ### 语法
 
@@ -99,9 +92,7 @@ hgetall key
 4) "5"
 ```
 
-
 ### 参考
-
 - [HGETALL - 官方](https://redis.io/commands/hgetall)
 - [HGETALL - redis.cn](http://www.redis.cn/commands/hgetall.html)
 
@@ -111,7 +102,6 @@ hgetall key
 > 可用版本：>= 2.0.0
 
 返回 hash key 中所有字段值。
-
 
 ### 语法
 
@@ -132,8 +122,36 @@ hvals key
 2) "5"
 ```
 
-
 ### 参考
-
 - [HVALS - 官方](https://redis.io/commands/hvals)
 - [HVALS - redis.cn](http://www.redis.cn/commands/hvals.html)
+
+
+## hkeys
+
+> 可用版本：>= 2.0.0
+
+返回 hash key 中所有字段。
+
+### 语法
+
+```bash
+hkeys key
+```
+
+### 返回值
+
+字段数组。如果 key 不存在，空数组。
+
+```bash
+127.0.0.1:6379> hset myhash f1 "hello" f2 5
+(integer) 2
+
+127.0.0.1:6379> hkeys myhash
+1) "f1"
+2) "f2"
+```
+
+### 参考
+- [HKEYS - 官方](https://redis.io/commands/hkeys)
+- [HKEYS - redis.cn](http://www.redis.cn/commands/hkeys.html)

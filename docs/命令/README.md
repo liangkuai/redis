@@ -60,15 +60,10 @@
 
 ### Hash
 
-- [hset](./hash/hset_hsetnx.md)
-- [hsetnx](./hash/hset_hsetnx.md)
-- [hget](./hash/hget_hmget_hgetall_hvals.md)
-- [hmget](./hash/hget_hmget_hgetall_hvals.md)
-- [hgetall](./hash/hget_hmget_hgetall_hvals.md)
-- [hvals](./hash/hget_hmget_hgetall_hvals.md)
+- [hset / hsetnx / ~~hmset~~](./hash/hset.md)
+- [hget / hmget / hgetall / hvals / hkeys](./hash/hget.md)
 - [hlen](./hash/hlen_hexists_hkeys.md)
 - [hexists](./hash/hlen_hexists_hkeys.md)
-- [hkeys](./hash/hlen_hexists_hkeys.md)
 - [hdel](./hash/hdel.md)
 - [hincrby](./hash/hincrby_hincrbyfloat.md)
 - [hincrbyfloat](./hash/hincrby_hincrbyfloat.md)

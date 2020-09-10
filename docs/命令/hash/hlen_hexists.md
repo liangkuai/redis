@@ -1,4 +1,4 @@
-# hlen/hexists/hkeys
+# hlen/hexists
 
 ## klen
 
@@ -61,36 +61,3 @@ hexists key field
 
 - [HEXISTS - 官方](https://redis.io/commands/hexists)
 - [HEXISTS - redis.cn](http://www.redis.cn/commands/hexists.html)
-
-
-## hkeys
-
-> 可用版本：>= 2.0.0
-
-返回 hash key 中所有字段。
-
-
-### 语法
-
-```bash
-hkeys key
-```
-
-### 返回值
-
-字段数组。如果 key 不存在，空数组。
-
-```bash
-127.0.0.1:6379> hset myhash f1 "hello" f2 5
-(integer) 2
-
-127.0.0.1:6379> hkeys myhash
-1) "f1"
-2) "f2"
-```
-
-
-### 参考
-
-- [HKEYS - 官方](https://redis.io/commands/hkeys)
-- [HKEYS - redis.cn](http://www.redis.cn/commands/hkeys.html)

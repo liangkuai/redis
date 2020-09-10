@@ -1,4 +1,4 @@
-# hset/hsetnx
+# hset/hsetnx/hmset
 
 ## hset
 
@@ -6,10 +6,10 @@
 
 指定 hash key，设置一个或多个字段和值。
 
+- key 不存在，先创建新的 key。
 - 如果字段已存在，覆盖值。
 
 Redis 4.0.0 开始可以设置多个，用来代替 `hmset` 命令。
-
 
 ### 语法
 
@@ -26,9 +26,7 @@ hset key field value [field value ...]
 (integer) 2
 ```
 
-
 ### 参考
-
 - [HSET - 官方](https://redis.io/commands/hset)
 - [HSET - redis.cn](http://www.redis.cn/commands/hset.html)
 
@@ -59,6 +57,11 @@ hsetnx key field value
 ```
 
 ### 参考
-
 - [HSETNX - 官方](https://redis.io/commands/hsetnx)
 - [HSETNX - redis.cn](http://www.redis.cn/commands/hsetnx.html)
+
+
+
+## ~~hmset~~
+
+Redis 4.0.0 开始，`hmset` 已弃用，参考 [`hset`](#hset)。
