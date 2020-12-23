@@ -1,15 +1,16 @@
 # Redis
 
-
-### 数据结构
-
-- [ ] [String](./数据类型/String.md)
+### 1. 数据结构
+- [ ] [String](/docs/数据类型/String.md)
     - [ ] 实现原理
-- [ ] List
+- [ ] [List](/docs/数据类型/List.md)
+    - [ ] 实现原理
+- [ ] [Hash](/docs/数据类型/Hash.md)
+- [ ] [Set](/docs/数据类型/Set.md)
+- [ ] [Zset](/docs/数据类型/Zset.md)
 
 
 ### 持久化
-
 - [x] RDB
     - [ ] 原理
     - [ ] COW（Copy On Write) 机制
@@ -18,7 +19,6 @@
 
 
 ### [问题](./问题/README.md)
-
 - [x] 缓存穿透
     - 布隆过滤器（Bloom Filter）
 - [x] 缓存击穿
@@ -26,7 +26,6 @@
 
 
 ### 数据删除机制
-
 - [ ] 过期策略
     - [ ] 定期删除
     - [ ] 惰性删除
@@ -42,12 +41,13 @@
 
 
 ### 应用
-
-- [x] 分布式锁
+- [x] [分布式锁](/docs/应用/分布式锁.md)
     - 普通实现
     - Redisson 实现
     - Redlock 算法
     - 对比
+- [ ] 异步消息队列
+- [ ] 延迟队列
 
 
 ### [命令](./命令/README.md)
