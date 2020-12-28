@@ -14,14 +14,6 @@
         - [ ] 跳表
 
 
-### 持久化
-- [x] RDB
-    - [ ] 原理
-    - [ ] COW（Copy On Write) 机制
-- [x] AOF
-- [x] Redis 4.0 混合持久化
-
-
 ### [问题](./问题/README.md)
 - [x] 缓存穿透
     - 布隆过滤器（Bloom Filter）
@@ -35,9 +27,16 @@
     - 惰性删除
 - [内存淘汰策略](/docs/内存回收机制/README.md)
 
+### 持久化
+- [intro](/docs/持久化/README.md)
+- [RDB](/docs/持久化/RDB.md)
+    - [ ] 原理
+    - [ ] COW（Copy On Write) 机制
+- [AOF](/docs/持久化/AOF.md)
+- [Redis 4.0 混合持久化](/docs/持久化/README.md)
+
 
 ### 部署模式
-
 - [ ] 单机模式
 - [ ] 主从复制模式
 - [ ] 哨兵模式（Sentinel）
