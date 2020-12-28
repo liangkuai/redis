@@ -8,17 +8,14 @@
 ### 解决
 
 #### 1. 非法参数校验
-
 对明显非法的参数做校验，直接返回异常信息，例如：id < 0。
 
 #### 2. 缓存无效 key
-
 如果查询的是缓存和数据库都不存在的数据，就写一个 null 值的 key 到 Redis 中，并且设置过期时间。这种方式可以解决请求的 key 变化不频繁的情况。
 
 但是有个缺点，如果大量请求每次都是不同的 key，就会导致 Redis 中缓存大量无效的 key。如果非要用这种方式来解决穿透问题的话，尽量将无效的 key 的过期时间设置短一点比如 30s。
 
 #### 3. 布隆过滤器（Bloom filter）
-
 利用高效的数据结构和算法快速判断出 key 是否存在，不存在就直接返回异常信息，存在的话就查询数据库然后更新缓存。
 
 
@@ -29,7 +26,6 @@
 ### 解决
 
 #### 1. 对「查询数据库数据更新到缓存」这个过程加分布式锁
-
 对于热点数据的查询，如果缓存还在就直接查询返回，否则对接下来「查询数据库数据更新到缓存」的过程加锁分布式锁，其他请求在这期间可以 sleep 一段时间，也可以直接返回“系统繁忙，稍后再试”等提示。
 
 #### 2. 热点数据永不过期
@@ -42,14 +38,20 @@
 ### 解决
 
 #### 1. 过期时间加个随机值
-
 在批量往 Redis 存数据的时候，把每个 key 的过期时间都加个随机值，防止数据在同一时间大面积失效。
 
 #### 2. 热点数据永不过期
 
 
+## 数据一致性问题
+使用 Redis 作为缓存时，如何保证数据库和缓存的一致性？
+
+解决方式就是「Cache Aside」，
+- 读，先读缓存，没命中就读库并更新缓存；
+- 写，先入库，然后设置缓存失效。
+
+
+
 ## 参考
-
-- [Redis 常见问题总结 - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md)
-
+- [Redis 持久化机制 - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md) / [Redis 持久化机制 - Snailclimb - Gitee](https://gitee.com/SnailClimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md)
 - [《吊打面试官》系列-缓存雪崩、击穿、穿透](https://mp.weixin.qq.com/s/knz-j-m8bTg5GnKc7oeZLg)

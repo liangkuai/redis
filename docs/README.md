@@ -13,14 +13,6 @@
     - [ ] 实现原理
         - [ ] 跳表
 
-
-### [问题](./问题/README.md)
-- [x] 缓存穿透
-    - 布隆过滤器（Bloom Filter）
-- [x] 缓存击穿
-- [x] 缓存雪崩
-
-
 ### 内存回收机制
 - [过期策略](/docs/内存回收机制/README.md)
     - 定期删除
@@ -35,6 +27,8 @@
 - [AOF](/docs/持久化/AOF.md)
 - [Redis 4.0 混合持久化](/docs/持久化/README.md)
 
+### Redis 事务
+- [intro](/docs/事务/README.md)
 
 ### 部署模式
 - [ ] 单机模式
@@ -42,6 +36,12 @@
 - [ ] 哨兵模式（Sentinel）
 - [ ] 集群模式（Cluster）
 
+### 问题
+- [缓存穿透](/docs/问题/README.md#缓存穿透)
+    - 布隆过滤器（Bloom Filter）
+- [缓存击穿](/docs/问题/README.md#缓存击穿)
+- [缓存雪崩](/docs/问题/README.md#缓存雪崩)
+- [数据一致性问题](/docs/问题/README.md#数据一致性问题)
 
 ### 应用
 - [x] [分布式锁](/docs/应用/分布式锁.md)
@@ -51,7 +51,6 @@
     - 对比
 - [ ] 异步消息队列
 - [ ] 延迟队列
-
 
 ### [命令](./命令/README.md)
 
