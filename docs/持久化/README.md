@@ -1,4 +1,3 @@
-
 # 持久化
 
 Redis 的数据全部存储在内存中，如果突然宕机，数据就会全部丢失，因此必须有一套机制来保证 Redis 的数据不会因为故障而丢失，这种机制就是 Redis 的持久化机制，它会将内存中的数据库状态存储到硬盘中。
@@ -20,7 +19,5 @@ Redis 4.0 为了解决这个问题，带来了一个新的持久化选项——*
 
 
 ### 参考
-
-- [Redis 持久化机制 - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md#redis-%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6%E6%80%8E%E4%B9%88%E4%BF%9D%E8%AF%81-redis-%E6%8C%82%E6%8E%89%E4%B9%8B%E5%90%8E%E5%86%8D%E9%87%8D%E5%90%AF%E6%95%B0%E6%8D%AE%E5%8F%AF%E4%BB%A5%E8%BF%9B%E8%A1%8C%E6%81%A2%E5%A4%8D)
-
-- [Redis 持久化 - 我没有三颗心脏](https://mp.weixin.qq.com/s/O_qDco6-Dasu3RomWIK_Ig) / [Redis(7)——持久化 - wmyskxz - GitHub](https://www.wmyskxz.com/2020/03/13/redis-7-chi-jiu-hua-yi-wen-liao-jie/)
+- [Redis 持久化机制 - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md) / [Redis 持久化机制 - Snailclimb - Gitee](https://gitee.com/SnailClimb/JavaGuide/blob/master/docs/database/Redis/redis-all.md)
+- [Redis(7)——持久化 - wmyskxz](https://www.wmyskxz.com/2020/03/13/redis-7-chi-jiu-hua-yi-wen-liao-jie/)

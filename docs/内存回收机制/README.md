@@ -19,7 +19,7 @@
 | `volatile-lru` | 从已设置过期时间的数据集 `server.db[i].expires` 中挑选最近最少使用的数据淘汰。 |
 | `volatile-ttl` | 从已设置过期时间的数据集 `server.db[i].expires` 中挑选将要过期的数据淘汰。 |
 | `volatile-random` | 从已设置过期时间的数据集 `server.db[i].expires` 中任意选择数据淘汰。 |
-| `allkeys-lru`（least recently used） | 当内存不足以容纳新写入数据时，在键空间中，移除最近最少使用的 key。 |
+| `allkeys-lru` | 当内存不足以容纳新写入数据时，在键空间中，移除最近最少使用的 key。 |
 | `allkeys-random` | 从数据集 `server.db[i].dict` 中任意选择数据淘汰。 |
 | `no-eviction` | 禁止驱逐数据，也就是说当内存不足以容纳新写入数据时，新写入操作会报错。 |
 | `volatile-lfu` | 从已设置过期时间的数据集 `server.db[i].expires` 中挑选最不经常使用的数据淘汰。（4.0 版本后） |

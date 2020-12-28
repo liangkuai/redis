@@ -5,12 +5,9 @@ AOF（append-only file）持久化
 
 
 #### 1. 持久化方式
-
 开启 AOF 持久化之后，每执行一条会更改 Redis 中的数据的命令，都会写入硬盘中的 AOF 文件末尾。
 
-
 #### 2. AOF 文件存储在哪？
-
 - 命令写入 `appendfilename` 配置项指定的文件，默认文件名是 appendonly.aof；
 - 和 RDB 文件一样，AOF 文件存储在 `dir` 配置指定的路径下。
 
@@ -20,19 +17,17 @@ appendfilename "appendonly.aof"
 dir ./
 ```
 
-
 #### 3. 启用配置
 默认情况下 Redis 没有开启 AOF 方式的持久化，可以通过 `appendonly` 配置项开启：
 ```bash
 appendonly yes
 ```
 
-
 #### 4. 持久化策略配置
 ```bash
 appendfsync always		# 每次有数据修改发生时都会写入 AOF 文件，这样会严重降低 Redis 的速度
 appendfsync everysec	# 每秒钟同步一次，显示地将多个写命令同步到硬盘
-appendfsync no				# 让操作系统决定何时进行同步
+appendfsync no			# 让操作系统决定何时进行同步
 ```
 
 ##### 4.1 appendfsync always
