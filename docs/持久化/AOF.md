@@ -25,9 +25,9 @@ appendonly yes
 
 ### 4. 持久化策略配置
 ```bash
-appendfsync always		# 每次有数据修改发生时都会写入 AOF 文件，这样会严重降低 Redis 的速度
-appendfsync everysec	# 每秒钟同步一次，显示地将多个写命令同步到硬盘
-appendfsync no			# 让操作系统决定何时进行同步
+appendfsync always      # 每次有数据修改发生时都会写入 AOF 文件，这样会严重降低 Redis 的速度
+appendfsync everysec    # 每秒钟同步一次，显示地将多个写命令同步到硬盘
+appendfsync no          # 让操作系统决定何时进行同步
 ```
 
 #### 4.1 appendfsync always
@@ -67,4 +67,4 @@ auto-aof-rewrite-percentage 100
 auto-aof-rewrite-min-size 64mb
 ```
 
-当启用了 AOF 持久化机制之后，当当前 AOF 文件的体积大于 64MB，且比上次重写之后的体积大了至少一倍的时候，Redis 将执行 bgrewriteaof 命令。
+当启用了 AOF 持久化机制之后，当当前 AOF 文件的体积大于 64MB，且比上次重写之后的体积大了至少一倍的时候，Redis 将执行 `bgrewriteaof` 命令。
