@@ -25,6 +25,7 @@
     - [ ] 原理
     - [ ] COW（Copy On Write) 机制
 - [AOF](/docs/持久化/AOF.md)
+    - AOF 重写
 - [Redis 4.0 混合持久化](/docs/持久化/README.md)
 
 ### Redis 事务
