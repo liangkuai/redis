@@ -25,7 +25,7 @@
 | `volatile-lfu` | 从已设置过期时间的数据集 `server.db[i].expires` 中挑选最不经常使用的数据淘汰。（4.0 版本后） |
 | `allkeys-lfu` | 当内存不足以容纳新写入数据时，在键空间中，移除最不经常使用的 key。（4.0 版本后） |
 
-- lru，least recently used，，最近最少使用
+- lru，least recently used，最近最少使用
 - lfu，least frequently used，最不经常使用
 
 ---

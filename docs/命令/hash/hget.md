@@ -141,7 +141,7 @@ hkeys key
 
 ### 返回值
 
-字段数组。如果 key 不存在，空数组。
+字段数组。如果 key 不存在，返回空数组。
 
 ```bash
 127.0.0.1:6379> hset myhash f1 "hello" f2 5

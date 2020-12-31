@@ -19,7 +19,7 @@ hset key field value [field value ...]
 
 ### 返回值
 
-新增的字段数（覆盖不算）。
+新增的字段数（覆盖不算）
 
 ```bash
 127.0.0.1:6379> hset myhash f1 "hello" f2 5

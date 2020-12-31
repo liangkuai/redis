@@ -1,5 +1,9 @@
 # Redis
 
+- [Redis 官网](https://redis.io/)
+- [Redis 在线环境](https://try.redis.io/#run)
+
+
 ### 1. 数据结构
 - [ ] [String](/docs/数据类型/String.md)
     - [ ] 实现原理
