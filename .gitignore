@@ -30,9 +30,46 @@ deps/lua/src/liblua.a
 *.dSYM
 Makefile.dep
 
-### macOS template
+
+
+### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+
+### Vim
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+
+
+### Obsidian
+.obsidian/*
+
+
+
+### macOS
 # General
-*.DS_Store
+**/.DS_Store
 .AppleDouble
 .LSOverride
 

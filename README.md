@@ -1,30 +1,65 @@
 # Redis
 
-REmote DIctionary Server（远程字典服务器）
 
-> 使用 ANSI C 编写的分布式内存数据库。
+### 0. [关于 Redis](./docs/关于Redis.md)
 
-
-### 1. 为什么要用 Redis？
 - 性能
-- 并发
-
-### 2. Redis 与 Memcached
-
-#### 共同点
-1. 基于内存，可以作为缓存
-2. 性能高
-3. 都有过期删除策略
-
-#### 区别
-| 区别 | Memcached | Redis |
-| :--: | :-- | :-- |
-| 数据类型 | 仅 k/v 类型 | 除了 k/v 类型，还有 list，set，zset，hash |
-| 持久化 | 没有 | 有 |
-| 灾难恢复 | 没有 | 持久化 |
-| 过期删除策略 | 惰性删除 | 惰性删除 + 定期删除 |
+- 作用
+- 实际应用
+- 与 Memcached 的区别
 
 
-### 3. 学习
-- [笔记](/docs/README.md)
-- issue
+### 1. [数据类型](./docs/数据类型/数据类型.md)
+
+- 基本数据类型
+- 特殊数据类型
+
+
+### [内存回收机制](./docs/内存回收机制/内存回收机制.md)
+
+- 过期策略
+    - 定期删除
+    - 惰性删除
+- 内存淘汰策略
+
+
+### [持久化](./docs/持久化/持久化.md)
+
+- RDB
+- AOF
+- 混合持久化
+
+
+### 部署模式
+
+- 单机模式
+- 主从复制模式
+- 哨兵模式（Sentinel）
+- 集群模式（Cluster）
+
+
+### [Redis 事务](./docs/事务/事务.md)
+
+
+### [Redis Module](./docs/Module/Module.md)
+
+
+### [应用](./docs/应用/应用.md)
+
+- 缓存
+- 分布式锁
+- 限流
+- 消息队列
+- 延迟队列
+- 分布式 Sessoin
+- 复杂业务场景
+
+
+
+
+### 优秀总结
+
+- [Redis - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide#redis) / [Redis - Snailclimb - Gitee](https://gitee.com/SnailClimb/JavaGuide#redis)
+- [高并发架构基石-缓存 - AobingJava - GitHub](https://github.com/AobingJava/JavaFamily)
+- [Redis 入门系列 - wmyskxz - GitHub](https://github.com/wmyskxz/MoreThanJava#目录) / [Redis 入门系列 - wmyskxz - Gitee](https://gitee.com/wmyskxz/MoreThanJava#目录)
+- [Redis - ZhongFuCheng3y - GitHub](https://github.com/ZhongFuCheng3y/3y#tvredis)

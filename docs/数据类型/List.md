@@ -11,7 +11,7 @@
 
 
 ### 参考
-- [List - 命令](/docs/命令/README.md#List)
+- [List - 命令](../命令/README.md#List)
 
 
 

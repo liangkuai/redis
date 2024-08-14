@@ -10,9 +10,12 @@
 
 ### 使用案例
 
+- 最近关注、粉丝列表
+
 
 ### 参考
-- [Zset - 命令](/docs/命令/README.md#Zset)
+
+- [Zset - 命令](../命令/README.md#Zset)
 
 
 

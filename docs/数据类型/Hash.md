@@ -12,7 +12,7 @@
 
 
 ### 参考
-- [Hash - 命令](/docs/命令/README.md#Hash)
+- [Hash - 命令](../命令/README.md#Hash)
 
 
 
