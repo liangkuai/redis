@@ -55,11 +55,17 @@
 - 复杂业务场景
 
 
+### [问题](./docs/问题/问题.md)
+
+- 数据一致性问题
+    - 缓存的读写策略
+- 缓存穿透
+- 缓存击穿
+- 缓存雪崩
+
 
 
 ### 优秀总结
 
-- [Redis - Snailclimb - GitHub](https://github.com/Snailclimb/JavaGuide#redis) / [Redis - Snailclimb - Gitee](https://gitee.com/SnailClimb/JavaGuide#redis)
-- [高并发架构基石-缓存 - AobingJava - GitHub](https://github.com/AobingJava/JavaFamily)
 - [Redis 入门系列 - wmyskxz - GitHub](https://github.com/wmyskxz/MoreThanJava#目录) / [Redis 入门系列 - wmyskxz - Gitee](https://gitee.com/wmyskxz/MoreThanJava#目录)
 - [Redis - ZhongFuCheng3y - GitHub](https://github.com/ZhongFuCheng3y/3y#tvredis)
